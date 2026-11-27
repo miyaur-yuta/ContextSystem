@@ -4,6 +4,8 @@
 
 ## ドキュメントと AI エージェントの入口
 
+AI エージェント向けの初回手順は、[仕様本文](./CONTEXTSYSTEM_SPEC.md) の第2節「エージェントが最初に行う手順」に記載しています。
+
 - **仕様本文（正本）**: **`CONTEXTSYSTEM_SPEC.md`** — 可否・手順・結果・ディレクトリ単位の原則・更新ルールはすべてここに書く。
 - **AI エージェント用の入口**: 各エージェントが自動で読むファイルを公式仕様に合わせて置き、**いずれも `CONTEXTSYSTEM_SPEC.md` に誘導する**（本文の二重記述はしない）。
   - `AGENTS.md` — OpenAI Codex CLI / Cursor / GitHub Copilot 系で参照される想定
